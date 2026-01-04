@@ -132,6 +132,7 @@ ENV/
 env.bak/
 venv.bak/
 *_VM/
+DMLVM/
 
 # Spyder project settings
 .spyderproject
@@ -176,5 +177,6 @@ pyrightconfig.json
 
 # Other
 base/
+*.ipynb
 
 # End of https://www.toptal.com/developers/gitignore/api/python
