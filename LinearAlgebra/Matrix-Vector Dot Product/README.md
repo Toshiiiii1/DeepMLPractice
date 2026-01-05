@@ -12,3 +12,11 @@ Write a Python function that computes the dot product of a matrix and a vector. 
 **Output:**
 
 ```[5, 10]```
+
+### Solution:
+
+Đầu tiên là kiểm tra số cột có bằng với số lượng phần tử của vector b hay không?
+
+Lấy từng row trong ma trận, tính dot product giữa mỗi row với vector b.
+
+Cách tính dot product cũ là dùng chỉ số index, cách mới là dùng hàm zip() để gộp những giá trị cùng chỉ số index thành một cặp.
