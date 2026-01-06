@@ -178,5 +178,6 @@ pyrightconfig.json
 # Other
 base/
 *.ipynb
+review/
 
 # End of https://www.toptal.com/developers/gitignore/api/python
