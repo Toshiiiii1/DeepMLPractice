@@ -15,5 +15,6 @@ matrix = [[2, 1], [1, 2]]
 
 ```[3.0, 1.0]```
 
-### References
-None
+### Solution
+
+Giải phương trình bậc 2 là xong

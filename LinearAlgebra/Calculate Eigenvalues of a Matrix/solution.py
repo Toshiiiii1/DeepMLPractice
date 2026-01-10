@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import math
 
 def calculate_eigenvalues(matrix: list[list[float|int]]) -> list[float]:
@@ -18,10 +12,6 @@ def calculate_eigenvalues(matrix: list[list[float|int]]) -> list[float]:
         return [trace/2, trace/2]
     elif delta > 0:
         return sorted([(trace + math.sqrt(delta))/(2), (trace - math.sqrt(delta))/(2)], reverse=True)
-
-
-# In[8]:
-
 
 matrix = [[2, 1], [1, 2]]
 print(calculate_eigenvalues(matrix))
